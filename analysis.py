@@ -78,7 +78,7 @@ def get_analysis_prompt():
 
 def main():
   parser = argparse.ArgumentParser(description="Extract and analyze information from PDF using Gemini AI")
-  parser.add_argument("pdf_path", help="Path to the PDF file")
+  parser.add_argument("--pdf-path", help="Path to the PDF file")
   parser.add_argument("--output", "-o", default=None, help="Output file path (default: extracted_<filename>.txt)")
   parser.add_argument("--api-key", help="Gemini API key (can also use GEMINI_API_KEY env variable)")
   args = parser.parse_args()

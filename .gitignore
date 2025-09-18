@@ -1,0 +1,8 @@
+# Ignore the virtual environment folder that is now outside the repo
+iw_venv/
+extracted_*
+
+# Standard Python ignores
+__pycache__/
+*.pyc
+.env
